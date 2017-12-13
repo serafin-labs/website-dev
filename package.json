@@ -1,0 +1,25 @@
+{
+    "name": "serafin-labs.github.io",
+    "version": "0.1.0",
+    "description": "Serafin Labs Website",
+    "contributors": [
+        {
+            "name": "Sébastien de Saint Florent"
+        },
+        {
+            "name": "Nicolas Degardin"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/serafin-framework/serafin"
+    },
+    "license": "none",
+    "devDependencies": {
+        "lite-server": "^2.3.0"
+    },
+    "scripts": {
+        "lite": "lite-server --port 10001",
+        "start": "npm run lite"
+    }
+}
