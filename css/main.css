@@ -1,0 +1,21 @@
+body {
+    background: #fafafa;
+}
+#header {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+96,fafafa+100 */
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 96%, #fafafa 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 96%,#fafafa 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ffffff 0%,#ffffff 96%,#fafafa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    text-align: center;
+    height: 180px;
+    margin-bottom: 5vw;
+}
+
+#logo {
+    margin-top: -170px
+}
+
+.center {
+    text-align: center
+}
