@@ -7,8 +7,8 @@
             <!--Lighting effect-->
             <feSpecularLighting result="spec1" in="blur1" specularExponent="100" lighting-color="rgba(150, 150, 150, 0.1)">
                 <!--Light source effect-->
-                <fePointLight x="0.2225" y="0.5" z="0.4">
-                <animate attributeName="z"
+                <fePointLight x="0.2225" y="0.5" z="0.2">
+                <!--<animate attributeName="z"
                from="0.4" to="0.2" dur="5s" 
                repeatCount="indefinite"
                values="0.2; 0.4; 0.2;" 
@@ -18,7 +18,7 @@
                            .42 0 1 1;
                            0 0 .59 1;
                            .42 0 1 1;
-                           0 0 .59 1;"/>
+                           0 0 .59 1;"/>-->
                 </fePointLight>
             </feSpecularLighting>
             <!--Composition of inputs-->
