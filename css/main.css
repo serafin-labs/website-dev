@@ -1,29 +1,27 @@
 body {
-    background: #fafafa;
+  background: #fafafa;
 }
+
 #header {
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+96,fafafa+100 */
-    background: #ffffff; /* Old browsers */
-    background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 96%, #fafafa 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 96%,#fafafa 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #ffffff 0%,#ffffff 96%,#fafafa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    text-align: center;
-    height: 180px;
-    margin-bottom: 5vw;
-    position: relative
+  background-image: radial-gradient(circle at 10vw 70vh, #fafafa 54.4vh, transparent 0%), radial-gradient(circle at 30vw 70vh, #fafafa 61.4vh, transparent 0%), radial-gradient(circle at 50vw 70vh, #fafafa 58.9vh, transparent 0%), radial-gradient(circle at 70vw 70vh, #fafafa 60.5vh, transparent 0%), radial-gradient(circle at 90vw 70vh, #fafafa 60vh, transparent 0%), linear-gradient(80deg, #266f8b 0, transparent 5vw), linear-gradient(70deg, #fafafa 40vw, transparent 42vw), linear-gradient(60deg, #266f8b 70vw, transparent 80vw), linear-gradient(60deg, #8fced6 100vw, rgba(143, 206, 214, 0) 100vw);
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  text-align: center;
+  height: 20vh;
+  margin-bottom: 5vw;
+  position: relative;
 }
 
 #logo {
-    width: 480px;
-    max-width: 100vw;
-    top: -20px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
+  max-width: 30vw;
+  top: -5vh;
+  position: absolute;
+  left: 8vw;
+  bottom: 0;
+  margin: auto;
 }
 
 .center {
-    text-align: center
+  text-align: center;
 }
+/*# sourceMappingURL=main.css.map */
