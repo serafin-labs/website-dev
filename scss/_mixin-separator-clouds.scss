@@ -1,0 +1,12 @@
+@mixin separator-clouds() {
+    background-color: $color1;
+    background-image:
+    linear-gradient(to bottom, $colorBg1, $colorBg2 15%, transparent),
+    radial-gradient( circle at 10vw 70vh, $colorBg1 (random(100)/10 + 53) + vh, transparent 0% ),
+    radial-gradient( circle at 30vw 70vh, $colorBg1 (random(100)/10 + 53) + vh, transparent 0% ),
+    radial-gradient( circle at 50vw 70vh, $colorBg1 (random(100)/10 + 53) + vh, transparent 0% ),
+    radial-gradient( circle at 70vw 70vh, $colorBg1 (random(100)/10 + 53) + vh, transparent 0% ),
+    radial-gradient( circle at 90vw 70vh, $colorBg1 (random(100)/10 + 53) + vh, transparent 0% )
+    ;
+    height: 20vh;
+}

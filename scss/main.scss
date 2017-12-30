@@ -1,37 +1,90 @@
+$colorBg1: white;
+$colorBg2: #fafafa;
+$colorBg3: #dddddd;
+
+$color1: rgba(38, 111, 139, 1);
+$color2: rgba(143, 206, 214, 1);
+ 
+@import "header";
+@import "mixin-separator-clouds";
+
 body {
-    background: #fafafa;
+    background: $colorBg1;
 }
 
-#header {
-    background-image: 
-    radial-gradient( circle at 10vw 70vh, #fafafa (random(100)/10 + 53) + vh, transparent 0% ),
-    radial-gradient( circle at 30vw 70vh, #fafafa (random(100)/10 + 53) + vh, transparent 0% ),
-    radial-gradient( circle at 50vw 70vh, #fafafa (random(100)/10 + 53) + vh, transparent 0% ),
-    radial-gradient( circle at 70vw 70vh, #fafafa (random(100)/10 + 53) + vh, transparent 0% ),
-    radial-gradient( circle at 90vw 70vh, #fafafa (random(100)/10 + 53) + vh, transparent 0% ),
-    linear-gradient(80deg, rgba(38, 111, 139, 1) 0, rgba(0, 0, 0, 0) 5vw),
-    linear-gradient(70deg, #fafafa 40vw, rgba(0, 0, 0, 0) 42vw), 
-    linear-gradient(60deg, rgba(38, 111, 139, 1) 70vw, rgba(0, 0, 0, 0) 80vw),
-    linear-gradient(60deg, rgba(143, 206, 214, 1) 100vw, rgba(143, 206, 214, 0)100vw),
-    ;
+body .separator {
+    @include separator-clouds();
+}
 
-    background-repeat: no-repeat;
-    background-clip: content-box;
+body .separator2 {
+    @include separator-clouds();
+}
+
+h1 {
+    color: $color1;
     text-align: center;
-    height: 20vh;
-    margin-bottom: 5vw;
-    position: relative
 }
 
-#logo {
-    max-width: 30vw;
-    top: -5vh;
-    position: absolute;
-    left: 8vw;
-    bottom: 0;
-    margin: auto;
+h2 {
+    color: $color1;
 }
 
-.center {
-    text-align: center
+body .container {
+    background-image: 
+        linear-gradient(to bottom, $colorBg1,$colorBg2 15%, white 70%);
+    margin-left: 0;
+    margin-right: 0;
+    max-width: none;
+    
+    >p {
+        text-align: center;
+    }
+}
+
+body #features .grid {
+    display: grid; 
+    width: 100%;
+    
+    grid-template-columns: 50vw 50vw;
+
+    grid-auto-rows: 1fr;
+    grid-auto-flow: dense;
+    align-items: stretch;
+    
+    >img {
+        height: 100%;
+        padding: 15px;
+    }
+
+    >img:nth-of-type(even) {
+        grid-column: 2;
+        justify-self: start;
+        padding-right: 20vw;
+        background-image: linear-gradient(to right, $color2, transparent 35%);
+    }
+
+    >img:nth-of-type(odd) {
+        grid-column: 1/2;
+        justify-self: end;
+        padding-left: 20vw;
+        background-image: linear-gradient(to left, $color2, transparent 35%);
+    }
+
+    >div:nth-of-type(even) {
+        h2 {
+            text-align: right;
+        }
+        grid-column: 1/2;
+        justify-self: end;
+        margin: 20px;
+    }
+
+    >div:nth-of-type(odd) {
+        h2 {
+            text-align: left;
+        }
+        grid-column: 2;
+        justify-self: start;
+        margin: 15px;
+    }
 }

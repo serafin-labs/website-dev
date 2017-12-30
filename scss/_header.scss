@@ -1,0 +1,28 @@
+#header {
+    background-image: 
+    radial-gradient( circle at 10vw 70vh, $colorBg1 (random(100)/10 + 53) + vh, transparent 0% ),
+    radial-gradient( circle at 30vw 70vh, $colorBg1 (random(100)/10 + 53) + vh, transparent 0% ),
+    radial-gradient( circle at 50vw 70vh, $colorBg1 (random(100)/10 + 53) + vh, transparent 0% ),
+    radial-gradient( circle at 70vw 70vh, $colorBg1 (random(100)/10 + 53) + vh, transparent 0% ),
+    radial-gradient( circle at 90vw 70vh, $colorBg1 (random(100)/10 + 53) + vh, transparent 0% ),
+    linear-gradient(80deg, $color1, transparent 5vw),
+    linear-gradient(70deg, $colorBg1 40vw, transparent 44vw), 
+    linear-gradient(60deg, $color1 65vw, transparent 80vw),
+    linear-gradient(60deg, $color2 80vw, $colorBg1 110vw),
+    ; 
+
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    text-align: center;
+    height: 20vh;
+    position: relative
+}
+
+#logo {
+    max-width: 30vw;
+    top: -5vh;
+    position: absolute;
+    left: 8vw;
+    bottom: 0;
+    margin: auto;
+} 

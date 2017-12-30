@@ -1,14 +1,9 @@
-body {
-  background: #fafafa;
-}
-
 #header {
-  background-image: radial-gradient(circle at 10vw 70vh, #fafafa 54.4vh, transparent 0%), radial-gradient(circle at 30vw 70vh, #fafafa 61.4vh, transparent 0%), radial-gradient(circle at 50vw 70vh, #fafafa 58.9vh, transparent 0%), radial-gradient(circle at 70vw 70vh, #fafafa 60.5vh, transparent 0%), radial-gradient(circle at 90vw 70vh, #fafafa 60vh, transparent 0%), linear-gradient(80deg, #266f8b 0, transparent 5vw), linear-gradient(70deg, #fafafa 40vw, transparent 42vw), linear-gradient(60deg, #266f8b 70vw, transparent 80vw), linear-gradient(60deg, #8fced6 100vw, rgba(143, 206, 214, 0) 100vw);
+  background-image: radial-gradient(circle at 10vw 70vh, white 53.5vh, transparent 0%), radial-gradient(circle at 30vw 70vh, white 60.5vh, transparent 0%), radial-gradient(circle at 50vw 70vh, white 56.9vh, transparent 0%), radial-gradient(circle at 70vw 70vh, white 61vh, transparent 0%), radial-gradient(circle at 90vw 70vh, white 59.4vh, transparent 0%), linear-gradient(80deg, #266f8b, transparent 5vw), linear-gradient(70deg, white 40vw, transparent 44vw), linear-gradient(60deg, #266f8b 65vw, transparent 80vw), linear-gradient(60deg, #8fced6 80vw, white 110vw);
   background-repeat: no-repeat;
   background-clip: content-box;
   text-align: center;
   height: 20vh;
-  margin-bottom: 5vw;
   position: relative;
 }
 
@@ -21,7 +16,87 @@ body {
   margin: auto;
 }
 
-.center {
+body {
+  background: white;
+}
+
+body .separator {
+  background-color: #266f8b;
+  background-image: linear-gradient(to bottom, white, #fafafa 15%, transparent), radial-gradient(circle at 10vw 70vh, white 55.5vh, transparent 0%), radial-gradient(circle at 30vw 70vh, white 53.1vh, transparent 0%), radial-gradient(circle at 50vw 70vh, white 61.8vh, transparent 0%), radial-gradient(circle at 70vw 70vh, white 58.2vh, transparent 0%), radial-gradient(circle at 90vw 70vh, white 56.5vh, transparent 0%);
+  height: 20vh;
+}
+
+body .separator2 {
+  background-color: #266f8b;
+  background-image: linear-gradient(to bottom, white, #fafafa 15%, transparent), radial-gradient(circle at 10vw 70vh, white 57.8vh, transparent 0%), radial-gradient(circle at 30vw 70vh, white 59.5vh, transparent 0%), radial-gradient(circle at 50vw 70vh, white 62.8vh, transparent 0%), radial-gradient(circle at 70vw 70vh, white 54.2vh, transparent 0%), radial-gradient(circle at 90vw 70vh, white 58.4vh, transparent 0%);
+  height: 20vh;
+}
+
+h1 {
+  color: #266f8b;
   text-align: center;
+}
+
+h2 {
+  color: #266f8b;
+}
+
+body .container {
+  background-image: linear-gradient(to bottom, white, #fafafa 15%, white 70%);
+  margin-left: 0;
+  margin-right: 0;
+  max-width: none;
+}
+
+body .container > p {
+  text-align: center;
+}
+
+body #features .grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 50vw 50vw;
+  grid-auto-rows: 1fr;
+  grid-auto-flow: dense;
+  align-items: stretch;
+}
+
+body #features .grid > img {
+  height: 100%;
+  padding: 15px;
+}
+
+body #features .grid > img:nth-of-type(even) {
+  grid-column: 2;
+  justify-self: start;
+  padding-right: 20vw;
+  background-image: linear-gradient(to right, #8fced6, transparent 35%);
+}
+
+body #features .grid > img:nth-of-type(odd) {
+  grid-column: 1/2;
+  justify-self: end;
+  padding-left: 20vw;
+  background-image: linear-gradient(to left, #8fced6, transparent 35%);
+}
+
+body #features .grid > div:nth-of-type(even) {
+  grid-column: 1/2;
+  justify-self: end;
+  margin: 20px;
+}
+
+body #features .grid > div:nth-of-type(even) h2 {
+  text-align: right;
+}
+
+body #features .grid > div:nth-of-type(odd) {
+  grid-column: 2;
+  justify-self: start;
+  margin: 15px;
+}
+
+body #features .grid > div:nth-of-type(odd) h2 {
+  text-align: left;
 }
 /*# sourceMappingURL=main.css.map */
