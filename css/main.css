@@ -1,5 +1,5 @@
 #header {
-  background-image: radial-gradient(circle at 10vw 70vh, white 53.5vh, transparent 0%), radial-gradient(circle at 30vw 70vh, white 60.5vh, transparent 0%), radial-gradient(circle at 50vw 70vh, white 56.9vh, transparent 0%), radial-gradient(circle at 70vw 70vh, white 61vh, transparent 0%), radial-gradient(circle at 90vw 70vh, white 59.4vh, transparent 0%), linear-gradient(80deg, #266f8b, transparent 5vw), linear-gradient(70deg, white 40vw, transparent 44vw), linear-gradient(60deg, #266f8b 65vw, transparent 80vw), linear-gradient(60deg, #8fced6 80vw, white 110vw);
+  background-image: radial-gradient(circle at 10vw 70vh, white 59vh, transparent 0%), radial-gradient(circle at 30vw 70vh, white 53.5vh, transparent 0%), radial-gradient(circle at 50vw 70vh, white 54.1vh, transparent 0%), radial-gradient(circle at 70vw 70vh, white 54.2vh, transparent 0%), radial-gradient(circle at 90vw 70vh, white 61.5vh, transparent 0%), linear-gradient(80deg, #266f8b, transparent 5vw), linear-gradient(70deg, white 40vw, transparent 44vw), linear-gradient(60deg, #266f8b 65vw, transparent 80vw), linear-gradient(60deg, #8fced6 80vw, white 110vw);
   background-repeat: no-repeat;
   background-clip: content-box;
   text-align: center;
@@ -22,13 +22,13 @@ body {
 
 body .separator {
   background-color: #266f8b;
-  background-image: linear-gradient(to bottom, white, #fafafa 15%, transparent), radial-gradient(circle at 10vw 70vh, white 55.5vh, transparent 0%), radial-gradient(circle at 30vw 70vh, white 53.1vh, transparent 0%), radial-gradient(circle at 50vw 70vh, white 61.8vh, transparent 0%), radial-gradient(circle at 70vw 70vh, white 58.2vh, transparent 0%), radial-gradient(circle at 90vw 70vh, white 56.5vh, transparent 0%);
+  background-image: linear-gradient(to bottom, white, #fafafa 15%, transparent), radial-gradient(circle at 10vw 70vh, white 62.8vh, transparent 0%), radial-gradient(circle at 30vw 70vh, white 62.9vh, transparent 0%), radial-gradient(circle at 50vw 70vh, white 53.7vh, transparent 0%), radial-gradient(circle at 70vw 70vh, white 58.1vh, transparent 0%), radial-gradient(circle at 90vw 70vh, white 56.6vh, transparent 0%);
   height: 20vh;
 }
 
 body .separator2 {
   background-color: #266f8b;
-  background-image: linear-gradient(to bottom, white, #fafafa 15%, transparent), radial-gradient(circle at 10vw 70vh, white 57.8vh, transparent 0%), radial-gradient(circle at 30vw 70vh, white 59.5vh, transparent 0%), radial-gradient(circle at 50vw 70vh, white 62.8vh, transparent 0%), radial-gradient(circle at 70vw 70vh, white 54.2vh, transparent 0%), radial-gradient(circle at 90vw 70vh, white 58.4vh, transparent 0%);
+  background-image: linear-gradient(to bottom, white, #fafafa 15%, transparent), radial-gradient(circle at 10vw 70vh, white 53.4vh, transparent 0%), radial-gradient(circle at 30vw 70vh, white 56vh, transparent 0%), radial-gradient(circle at 50vw 70vh, white 61.7vh, transparent 0%), radial-gradient(circle at 70vw 70vh, white 62.2vh, transparent 0%), radial-gradient(circle at 90vw 70vh, white 53.5vh, transparent 0%);
   height: 20vh;
 }
 
